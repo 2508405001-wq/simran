@@ -1,0 +1,240 @@
+{
+  "user": {
+    "id": "usr_101",
+    "name": "Alex Morgan",
+    "email": "alex.morgan@flowforge.io",
+    "role": "Lead Systems Architect",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "company": "FlowForge Dynamics",
+    "tier": "Enterprise Pro",
+    "api_keys": [
+      {
+        "id": "key_1",
+        "name": "Production API",
+        "key": "ff_live_8f921...3d9",
+        "created": "2026-01-15"
+      },
+      {
+        "id": "key_2",
+        "name": "Staging Pipeline",
+        "key": "ff_test_0a214...7e1",
+        "created": "2026-04-10"
+      }
+    ],
+    "notifications": {
+      "email": true,
+      "slack": true,
+      "desktop": false
+    }
+  },
+  "analytics": {
+    "mrr": 148500,
+    "mrr_growth": "+14.2%",
+    "arr": 1782000,
+    "active_users": 12450,
+    "active_users_growth": "+8.7%",
+    "churn_rate": "1.2%",
+    "conversion_rate": "4.8%",
+    "monthly_trends": [
+      {
+        "month": "Jan",
+        "revenue": 110000,
+        "users": 8200
+      },
+      {
+        "month": "Feb",
+        "revenue": 118000,
+        "users": 8900
+      },
+      {
+        "month": "Mar",
+        "revenue": 125000,
+        "users": 9600
+      },
+      {
+        "month": "Apr",
+        "revenue": 132000,
+        "users": 10400
+      },
+      {
+        "month": "May",
+        "revenue": 140000,
+        "users": 11300
+      },
+      {
+        "month": "Jun",
+        "revenue": 148500,
+        "users": 12450
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj_1",
+      "title": "Liquid Precision Pipeline",
+      "status": "Active",
+      "progress": 84,
+      "team_count": 8,
+      "updated_at": "2026-09-07"
+    },
+    {
+      "id": "proj_2",
+      "title": "Real-time Telemetry Engine",
+      "status": "In Progress",
+      "progress": 62,
+      "team_count": 5,
+      "updated_at": "2026-09-06"
+    },
+    {
+      "id": "proj_3",
+      "title": "Enterprise SSO Integration",
+      "status": "Review",
+      "progress": 95,
+      "team_count": 3,
+      "updated_at": "2026-09-04"
+    },
+    {
+      "id": "proj_4",
+      "title": "Workflow Automation V2",
+      "status": "Planning",
+      "progress": 25,
+      "team_count": 6,
+      "updated_at": "2026-09-01"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_1",
+      "project_id": "proj_1",
+      "title": "Optimize liquid viscosity calculation algorithms",
+      "priority": "High",
+      "status": "In Progress",
+      "assignee": "Alex Morgan"
+    },
+    {
+      "id": "task_2",
+      "project_id": "proj_1",
+      "title": "Add webhooks for overflow trigger events",
+      "priority": "Medium",
+      "status": "Todo",
+      "assignee": "Sarah Chen"
+    },
+    {
+      "id": "task_3",
+      "project_id": "proj_2",
+      "title": "Implement Redis pub/sub metrics stream",
+      "priority": "High",
+      "status": "In Progress",
+      "assignee": "David Kim"
+    },
+    {
+      "id": "task_4",
+      "project_id": "proj_3",
+      "title": "SAML 2.0 Identity Provider audit",
+      "priority": "Critical",
+      "status": "Completed",
+      "assignee": "Elena Rostova"
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "road_1",
+      "title": "Multi-Region Flow Replicators",
+      "category": "Infrastructure",
+      "quarter": "Q3 2026",
+      "votes": 342,
+      "status": "In Progress"
+    },
+    {
+      "id": "road_2",
+      "title": "AI-Powered Anomaly Detection",
+      "category": "Analytics",
+      "quarter": "Q3 2026",
+      "votes": 518,
+      "status": "In Progress"
+    },
+    {
+      "id": "road_3",
+      "title": "Visual Workflow Designer",
+      "category": "Core Platform",
+      "quarter": "Q4 2026",
+      "votes": 689,
+      "status": "Planned"
+    },
+    {
+      "id": "road_4",
+      "title": "Custom Webhook Actions",
+      "category": "Integrations",
+      "quarter": "Q4 2026",
+      "votes": 275,
+      "status": "Under Review"
+    },
+    {
+      "id": "road_5",
+      "title": "GraphQL API v2",
+      "category": "Developer Tools",
+      "quarter": "Q1 2027",
+      "votes": 194,
+      "status": "Planned"
+    }
+  ],
+  "team": [
+    {
+      "id": "mem_1",
+      "name": "Alex Morgan",
+      "role": "Lead Architect",
+      "status": "Online",
+      "email": "alex.morgan@flowforge.io"
+    },
+    {
+      "id": "mem_2",
+      "name": "Sarah Chen",
+      "role": "Frontend Lead",
+      "status": "Online",
+      "email": "sarah.chen@flowforge.io"
+    },
+    {
+      "id": "mem_3",
+      "name": "David Kim",
+      "role": "Backend Engineer",
+      "status": "Away",
+      "email": "david.kim@flowforge.io"
+    },
+    {
+      "id": "mem_4",
+      "name": "Elena Rostova",
+      "role": "Security Ops",
+      "status": "Offline",
+      "email": "elena.rostova@flowforge.io"
+    }
+  ],
+  "activity_feed": [
+    {
+      "id": "act_1",
+      "user": "Sarah Chen",
+      "action": "merged PR #142 into main",
+      "timestamp": "10 mins ago"
+    },
+    {
+      "id": "act_2",
+      "user": "David Kim",
+      "action": "deployed Telemetry Engine v1.4.0",
+      "timestamp": "45 mins ago"
+    },
+    {
+      "id": "act_3",
+      "user": "Alex Morgan",
+      "action": "updated Liquid Precision threshold settings",
+      "timestamp": "2 hours ago"
+    }
+  ],
+  "liquid_precision": {
+    "flow_rate_lpm": 124.5,
+    "viscosity_index": 4.85,
+    "pressure_psi": 42.1,
+    "temperature_c": 23.4,
+    "calibration_status": "Optimal",
+    "auto_balance": true,
+    "alert_threshold_psi": 50
+  }
+}

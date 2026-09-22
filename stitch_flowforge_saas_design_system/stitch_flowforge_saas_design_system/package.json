@@ -1,0 +1,12 @@
+{
+  "name": "stitch-flowforge-saas-design-system",
+  "version": "1.0.0",
+  "description": "FlowForge SaaS Design System Frontend",
+  "scripts": {
+    "build": "echo 'Static asset build completed cleanly'",
+    "start": "echo 'Static deployment'"
+  },
+  "keywords": ["flowforge", "frontend", "cloudflare-pages"],
+  "author": "",
+  "license": "ISC"
+}

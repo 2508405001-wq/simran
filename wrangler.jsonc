@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "simran",
+  "compatibility_date": "2026-09-21",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "./stitch_flowforge_saas_design_system/stitch_flowforge_saas_design_system",
+    "exclude": [
+      "node_modules/**",
+      ".git/**",
+      ".wrangler/**"
+    ]
+  }
+}

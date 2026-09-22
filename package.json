@@ -1,20 +1,13 @@
 {
-  "name": "stitch-flowforge-saas-design-system",
+  "name": "simran",
   "version": "1.0.0",
-  "description": "FlowForge SaaS Design System Frontend",
+  "description": "FlowForge SaaS Design System Root",
   "scripts": {
     "build": "echo 'Static asset build completed cleanly'",
     "start": "echo 'Static deployment'",
     "deploy": "wrangler deploy",
     "preview": "wrangler dev"
   },
-  "keywords": [
-    "flowforge",
-    "frontend",
-    "cloudflare-pages"
-  ],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "wrangler": "^4.136.1"
   }

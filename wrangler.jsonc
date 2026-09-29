@@ -6,11 +6,6 @@
     "enabled": true
   },
   "assets": {
-    "directory": "./stitch_flowforge_saas_design_system/stitch_flowforge_saas_design_system",
-    "exclude": [
-      "node_modules/**",
-      ".git/**",
-      ".wrangler/**"
-    ]
+    "directory": "./stitch_flowforge_saas_design_system/stitch_flowforge_saas_design_system"
   }
 }

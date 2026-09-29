@@ -159,11 +159,18 @@
 <header class="fixed top-0 w-full z-50 bg-surface/60 dark:bg-surface-dim/60 backdrop-blur-xl shadow-sm border-b border-on-surface/5">
 <div class="flex items-center justify-between px-container-padding h-16">
 <div class="flex items-center gap-4">
-<button class="text-on-surface-variant hover:opacity-80 transition-opacity active:scale-95 duration-200">
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">waves</span>
-</button>
-<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg bg-gradient-to-r from-primary to-primary-container bg-clip-text text-transparent">FlowForge</h1>
+<span class="material-symbols-outlined text-primary text-[24px]" style="font-variation-settings: 'FILL' 1;">waves</span>
+<a href="../flowforge_home/code.html" class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg bg-gradient-to-r from-primary to-primary-container bg-clip-text text-transparent font-bold">FlowForge</a>
 </div>
+<nav class="hidden md:flex items-center gap-6 font-label-bold text-caption">
+  <a href="../flowforge_home/code.html" class="text-on-surface-variant hover:text-primary transition-colors">Home</a>
+  <a href="../product_workspace/code.html" class="text-primary font-bold border-b-2 border-primary pb-1">Products</a>
+  <a href="../product_roadmap/code.html" class="text-on-surface-variant hover:text-primary transition-colors">Roadmap</a>
+  <a href="../analytics_dashboard/code.html" class="text-on-surface-variant hover:text-primary transition-colors">Analytics</a>
+  <a href="../team_collaboration/code.html" class="text-on-surface-variant hover:text-primary transition-colors">Team</a>
+  <a href="../user_profile/code.html" class="text-on-surface-variant hover:text-primary transition-colors">Profile</a>
+  <a href="../about_flowforge/code.html" class="text-on-surface-variant hover:text-primary transition-colors">About</a>
+</nav>
 <button class="text-primary hover:opacity-80 transition-opacity active:scale-95 duration-200">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">add_circle</span>
 </button>
@@ -349,30 +356,32 @@
 <nav class="md:hidden fixed bottom-0 w-full z-50 rounded-t-xl bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-2xl border-t border-on-surface/5 shadow-[0px_-4px_20px_rgba(10,25,47,0.05)]">
 <div class="flex justify-around items-center h-20 pb-safe px-4">
 <!-- Inactive -->
-<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform" href="#">
+<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform" href="../flowforge_home/code.html">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">home</span>
 <span class="font-label-bold text-caption mt-1">Home</span>
 </a>
 <!-- Active (Products matches "Product Workspace") -->
-<a class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-full px-4 py-1.5 transition-all duration-300 active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-full px-4 py-1.5 transition-all duration-300 active:scale-90" href="../product_workspace/code.html">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">inventory_2</span>
 <span class="font-label-bold text-caption mt-1">Products</span>
 </a>
 <!-- Inactive -->
-<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform" href="#">
+<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform" href="../product_roadmap/code.html">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">alt_route</span>
 <span class="font-label-bold text-caption mt-1">Roadmap</span>
 </a>
 <!-- Inactive -->
-<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform" href="#">
+<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform" href="../analytics_dashboard/code.html">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">insights</span>
 <span class="font-label-bold text-caption mt-1">Analytics</span>
 </a>
 <!-- Inactive -->
-<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform" href="#">
+<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform" href="../user_profile/code.html">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">person</span>
 <span class="font-label-bold text-caption mt-1">Profile</span>
 </a>
 </div>
 </nav>
+<script src="../api-client.js"></script>
+<script src="../app-init.js"></script>
 </body></html>

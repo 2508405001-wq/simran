@@ -127,22 +127,27 @@
 </button>
 <span class="font-display-lg-mobile text-display-lg-mobile bg-gradient-to-r from-primary to-primary-container bg-clip-text text-transparent">FlowForge</span>
 </div>
-<!-- Desktop Nav Cluster (derived from BottomNavBar JSON structure for responsive pivot) -->
 <nav class="hidden md:flex gap-8 items-center font-label-bold text-caption">
-<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="#">
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="../flowforge_home/code.html">
 <span class="material-symbols-outlined text-[20px]">home</span> Home
             </a>
-<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="#">
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="../product_workspace/code.html">
 <span class="material-symbols-outlined text-[20px]">inventory_2</span> Products
             </a>
-<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="#">
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="../product_roadmap/code.html">
 <span class="material-symbols-outlined text-[20px]">alt_route</span> Roadmap
             </a>
-<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="#">
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="../analytics_dashboard/code.html">
 <span class="material-symbols-outlined text-[20px]">insights</span> Analytics
             </a>
-<a class="text-primary flex items-center gap-2" href="#">
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="../team_collaboration/code.html">
+<span class="material-symbols-outlined text-[20px]">group</span> Team
+            </a>
+<a class="text-primary flex items-center gap-2 font-bold" href="../user_profile/code.html">
 <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">person</span> Profile
+            </a>
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2" href="../about_flowforge/code.html">
+<span class="material-symbols-outlined text-[20px]">info</span> About
             </a>
 </nav>
 <button class="text-primary dark:text-primary-fixed-dim hover:opacity-80 transition-opacity active:scale-95 duration-200">
@@ -323,26 +328,28 @@
 </main>
 <!-- BottomNavBar (Mobile Focus) -->
 <nav class="fixed bottom-0 w-full z-50 rounded-t-xl bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-2xl border-t border-on-surface/5 shadow-[0px_-4px_20px_rgba(10,25,47,0.05)] flex justify-around items-center h-20 pb-safe px-4 md:hidden">
-<button class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform p-2 rounded-lg">
+<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform p-2 rounded-lg" href="../flowforge_home/code.html">
 <span class="material-symbols-outlined mb-1 text-[24px]">home</span>
 <span class="font-label-bold text-caption text-[10px]">Home</span>
-</button>
-<button class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform p-2 rounded-lg">
+</a>
+<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform p-2 rounded-lg" href="../product_workspace/code.html">
 <span class="material-symbols-outlined mb-1 text-[24px]">inventory_2</span>
 <span class="font-label-bold text-caption text-[10px]">Products</span>
-</button>
-<button class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform p-2 rounded-lg">
+</a>
+<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform p-2 rounded-lg" href="../product_roadmap/code.html">
 <span class="material-symbols-outlined mb-1 text-[24px]">alt_route</span>
 <span class="font-label-bold text-caption text-[10px]">Roadmap</span>
-</button>
-<button class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform p-2 rounded-lg">
+</a>
+<a class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim opacity-70 hover:bg-secondary-container/50 active:scale-90 transition-transform p-2 rounded-lg" href="../analytics_dashboard/code.html">
 <span class="material-symbols-outlined mb-1 text-[24px]">insights</span>
 <span class="font-label-bold text-caption text-[10px]">Analytics</span>
-</button>
+</a>
 <!-- Active State -->
-<button class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-full px-4 py-1.5 transition-all duration-300 active:scale-90 shadow-sm">
+<a class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-full px-4 py-1.5 transition-all duration-300 active:scale-90 shadow-sm" href="../user_profile/code.html">
 <span class="material-symbols-outlined mb-0.5 text-[24px]" style="font-variation-settings: 'FILL' 1;">person</span>
 <span class="font-label-bold text-caption text-[10px]">Profile</span>
-</button>
+</a>
 </nav>
+<script src="../api-client.js"></script>
+<script src="../app-init.js"></script>
 </body></html>
